@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Geist', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input[type="radio"] {
+  accent-color: #059669;
+}
