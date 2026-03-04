@@ -90,13 +90,13 @@ export default function PaymentPage() {
       <div className="mt-4 flex gap-3">
         <button
           onClick={() => router.back()}
-          className="px-4 py-3 rounded-lg border border-neutral-200 text-sm font-medium text-neutral-600 hover:bg-neutral-50 transition-colors"
+          className="px-4 cursor-pointer py-3 rounded-lg border border-neutral-200 text-sm font-medium text-neutral-600 hover:bg-neutral-100 transition-colors"
         >
           Back
         </button>
         <button
           onClick={() => router.push("/success")}
-          className="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white py-3 px-4 rounded-lg text-sm font-semibold transition-colors duration-150 flex items-center justify-center gap-2"
+          className="flex-1 cursor-pointer bg-emerald-600 hover:bg-emerald-700 text-white py-3 px-4 rounded-lg text-sm font-semibold transition-colors duration-150 flex items-center justify-center gap-2"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />

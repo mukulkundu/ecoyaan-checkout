@@ -45,7 +45,7 @@ export default function CartClient({ initialData }) {
 
       <button
         onClick={() => router.push("/shipping")}
-        className="mt-4 w-full bg-emerald-600 hover:bg-emerald-700 text-white py-3 px-4 rounded-lg text-sm font-semibold transition-colors duration-150 flex items-center justify-center gap-2"
+        className="mt-4 w-full cursor-pointer bg-emerald-600 hover:bg-emerald-700 text-white py-3 px-4 rounded-lg text-sm font-semibold transition-colors duration-150 flex items-center justify-center gap-2"
       >
         Proceed to Checkout
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

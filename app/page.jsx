@@ -2,8 +2,8 @@ import { CheckoutProvider } from "@/context/CheckoutContext";
 import CartClient from "./CartClient";
 
 async function getCartData() {
-  // SSR fetch from your own API route
-  const res = await fetch("http://localhost:3000/api/cart", { cache: "no-store" });
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:3000";
+  const res = await fetch(`${baseUrl}/api/cart`, { cache: "no-store" });
   return res.json();
 }
 

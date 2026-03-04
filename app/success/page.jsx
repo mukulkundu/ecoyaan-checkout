@@ -52,7 +52,7 @@ export default function SuccessPage() {
         <div className="px-6 pb-6">
           <button
             onClick={() => router.push("/")}
-            className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-3 rounded-lg text-sm font-semibold transition-colors"
+            className="w-full cursor-pointer bg-emerald-600 hover:bg-emerald-700 text-white py-3 rounded-lg text-sm font-semibold transition-colors"
           >
             Continue Shopping
           </button>
